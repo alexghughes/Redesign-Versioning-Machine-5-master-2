@@ -203,7 +203,7 @@
         
              <li>
                 <span>
-                   <xsl:attribute name="id">Bibliographic Info</xsl:attribute>
+                   <xsl:attribute name="id">BibliographicInfo</xsl:attribute>
                    <input type="image" src="../vm-images/Help Button.svg" alt="" id="bibToggle" value="Bibliographic Info" onclick="toggleBiblio();" /> 
                    
                 </span>

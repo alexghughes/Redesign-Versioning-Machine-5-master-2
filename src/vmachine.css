@@ -54,6 +54,10 @@ div#mainBanner div#brandingLogo img{
     padding:0;
     margin:1.22em auto 0 auto;
 }
+#logo{
+    margin-top: 0px;
+
+}
 div#mainBanner div#headline{
    /* float:left;
     width:46.7em;
@@ -72,6 +76,8 @@ div#mainBanner div#headline{
 /*added by RB*/
 div#mainBanner{
 	height: 8em;
+	background-image: url("../vm-images/HeaderBackground.svg");
+	background-size:cover;
 }
 
 div#mainBanner div#headline h1{
@@ -140,8 +146,7 @@ div#mssArea div#bibPanel,
 div#mssArea div#critPanel,
 div#mssArea div#notesPanel,
 div#mssArea div.panel div.panelBanner,
-div#mainBanner div#headline,
-.viewerHandle{
+div#mainBanner.viewerHandle{
     background:#2c577f;
 }
 div#mssArea div.panel div.panelBanner{
